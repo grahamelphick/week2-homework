@@ -11,11 +11,18 @@ h1  {
 .navbar-brand {
     background-color: lightseagreen;
     font-family: 'Merriweather', serif;
+    color: white !important;
 }
 .container {
     padding: 30px;
     margin: 10px;
 }
 .navbar {
+    margin-bottom: 50px;
+}
+.brandText {
+    color: white;
+}
+.imageSize {
     margin-bottom: 50px;
 }
