@@ -1,28 +1,46 @@
 body {
     background-color: lightgray;
 }
+
 h1  {
     color: lightseagreen;
     font-family: 'Merriweather', serif;
 }
+
 .btn-primary {
     background-color: lightseagreen;
 }
+
 .navbar-brand {
     background-color: lightseagreen;
     font-family: 'Merriweather', serif;
-    color: white !important;
 }
+
 .container {
     padding: 30px;
     margin: 10px;
 }
+
 .navbar {
     margin-bottom: 50px;
 }
-.brandText {
+
+#bioImage{
+    float: left;
+    padding-right: 20px;
+}
+
+#bioName {
     color: white;
 }
+
 .imageSize {
     margin-bottom: 50px;
+}
+
+@media (min-width: 576px ) {
+    .navbar {
+        justify-content: center;
+    }
+   
 }
